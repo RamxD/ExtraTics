@@ -115,7 +115,7 @@ class UserController {
       // return response.send({user, status: 202, login})
       return response.status(202).send({user: user, Token: token});
     }
-    return response.send({message:{error:'This user does not exist! or your password is incorrect, please try again.', status: 203}})
+    return response.send({message:{error:'This user does not xdexist! or your password is incorrect, please try again.', status: 203}})
   }
 }
 
